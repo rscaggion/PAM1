@@ -11,9 +11,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <MenuNav.Navigator>
-        <MenuNav.Screen name="Java Script" componentes={ TelaJavaScript } />
-        <MenuNav.Screen name="Node" componentes={ TelaNode } />
-        <MenuNav.Screen name="React" componentes={ TelaReact } />
+        <MenuNav.Screen name="Java Script" component={ TelaJavaScript } />
+        <MenuNav.Screen name="Node" component={ TelaNode } />
+        <MenuNav.Screen name="React" component={ TelaReact } />
       </MenuNav.Navigator>
     </NavigationContainer>
   );
